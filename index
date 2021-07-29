@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Kevin Sterne</title>
+    <link rel="shortcut icon" href="img/pen.jpg" />
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Sulphur+Point:400,700&display=swap" rel="stylesheet">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="description" content="Save The Cedars Foundation">
+    <meta name="author" content="Kevin Sterne">
+    <!--CDN link for  TweenMax-->
+    <script src="https://use.fontawesome.com/55063d671c.js"></script>
+    <script>
+      /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+</head>
+
+<body>
+<nav id="navigation" class="nav-menu">
+    <div class="wrap nav-menu">
+        <div class="logo">
+            <a href="index.html">
+                     <h2>Save The Cedars</h2>
+            </a>
+          </div>
+        <ul>
+
+             <a href="About.html">About</a>
+        <a href="Get Involved.html">Get Involved</a>
+        <a href="Team.html">Team</a>
+        </ul>
+    </div>
+</nav>
+<div class="mobilenav">
+    <div class="logo">
+        <a href="index.html">
+            <h2>Save The Cedars</h2>
+        </a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+    <div id="myLinks">
+   
+        <a href="About.html">About</a>
+        <a href="Get Involved.html">Get Involved</a>
+        <a href="Team.html">Team</a>
+    </div>
+
+
+</div>
+<div class="spacer"></div>
+<footer>Copyright © 2021 Save The Cedars</footer>
+
+</body>
+</html>
