@@ -1,0 +1,17 @@
+footer {
+    position: relative;
+    float: right;
+}
+
+#cover-image {
+    height: 70vh;
+    background-image: url(../img/Hero.JPG);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+
+h3 {
+    font-size: 30px;
+}
