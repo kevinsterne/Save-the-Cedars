@@ -27,3 +27,17 @@ body, html {
   transform: translate(-50%, -50%);
   color: white;
 }
+
+body {
+  background-color: forestgreen;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
